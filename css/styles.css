@@ -1,0 +1,97 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #474744;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.left-container {
+  text-align: left;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #FFB400;
+}
+
+.white-section {
+  background-color: #fffbe0;
+}
+
+/* Title Sections */
+
+.title-container {
+  margin: 7% 15%;
+  text-align: left;
+}
+
+.name {
+  line-height: 2;
+}
+
+.description {
+  color: #737373;
+}
+
+.profile-img {
+  margin-bottom: 10%;
+}
+
+/* Education Sections */
+
+.experience-period {
+  text-align: left;
+  margin: 3% 10%;
+}
+
+/* Experience Section */
+
+.experience-title {
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.experience-item {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.duration {
+  text-align: right;
+}
+
+/* Carousel Control */
+
+
+/* Footer Section */
+
+.footer-icon {
+  margin: 10px 30px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+#footer p {
+  font-size: 0.8rem;
+  color: #737373;
+}
+
+@media (max-width: 1024px) {
+
+  .title-container {
+    text-align: center;
+  }
+
+}
+
